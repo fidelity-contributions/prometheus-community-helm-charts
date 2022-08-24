@@ -32149,6 +32149,27 @@ entries:
     version: 0.1.0
   prometheus-nats-exporter:
   - apiVersion: v1
+    appVersion: 0.10.0
+    created: "2022-08-24T16:23:12.452565832Z"
+    description: A Helm chart for prometheus-nats-exporter
+    digest: 535aaea42cae4ae6b0626d88e74182e5088766f0a505153949aa2802a67f5e8d
+    home: https://github.com/nats-io/prometheus-nats-exporter
+    keywords:
+    - nats
+    - prometheus
+    - exporter
+    maintainers:
+    - email: okgolove@markeloff.net
+      name: okgolove
+    - email: carlos@carlosbecker.com
+      name: caarlos0
+    name: prometheus-nats-exporter
+    sources:
+    - https://github.com/nats-io/prometheus-nats-exporter
+    urls:
+    - https://github.com/fidelity/prometheus-helm-charts/releases/download/prometheus-nats-exporter-2.10.0/prometheus-nats-exporter-2.10.0.tgz
+    version: 2.10.0
+  - apiVersion: v1
     appVersion: 0.9.3
     created: "2022-08-22T14:29:21.45724916Z"
     description: A Helm chart for prometheus-nats-exporter
@@ -32525,6 +32546,28 @@ entries:
     - https://prometheus-community.github.io/helm-charts/prometheus-nats-exporter-1.0.0.tgz
     version: 1.0.0
   prometheus-node-exporter:
+  - apiVersion: v2
+    appVersion: 1.3.1
+    created: "2022-08-24T16:23:12.755864661Z"
+    description: A Helm chart for prometheus node-exporter
+    digest: ec4a6eecac96182a1903fa23adf52763a8fb80434c257aebd6d9356e41ebbaf6
+    home: https://github.com/prometheus/node_exporter/
+    keywords:
+    - node-exporter
+    - prometheus
+    - exporter
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    name: prometheus-node-exporter
+    sources:
+    - https://github.com/prometheus/node_exporter/
+    type: application
+    urls:
+    - https://github.com/fidelity/prometheus-helm-charts/releases/download/prometheus-node-exporter-4.0.0/prometheus-node-exporter-4.0.0.tgz
+    version: 4.0.0
   - apiVersion: v2
     appVersion: 1.3.1
     created: "2022-08-22T14:29:21.59519343Z"
@@ -44752,6 +44795,28 @@ entries:
   prometheus-postgres-exporter:
   - apiVersion: v2
     appVersion: 0.10.1
+    created: "2022-08-24T16:23:13.062804992Z"
+    description: A Helm chart for prometheus postgres-exporter
+    digest: e3b6b702c26dd8e1760f7707723237a4f28f337f2a698c719c6052beedf5ff06
+    home: https://github.com/prometheus-community/postgres_exporter
+    keywords:
+    - postgresql
+    - prometheus
+    - exporter
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    name: prometheus-postgres-exporter
+    sources:
+    - https://github.com/prometheus-community/postgres_exporter
+    type: application
+    urls:
+    - https://github.com/fidelity/prometheus-helm-charts/releases/download/prometheus-postgres-exporter-3.1.2/prometheus-postgres-exporter-3.1.2.tgz
+    version: 3.1.2
+  - apiVersion: v2
+    appVersion: 0.10.1
     created: "2022-08-22T14:29:21.759622982Z"
     description: A Helm chart for prometheus postgres-exporter
     digest: c3234ab34eb3566c4d845a689c4748cece11c359462d0e0c5310f58087364139
@@ -48123,6 +48188,25 @@ entries:
   prometheus-snmp-exporter:
   - apiVersion: v1
     appVersion: 0.19.0
+    created: "2022-08-24T16:23:13.354261512Z"
+    description: Prometheus SNMP Exporter
+    digest: 54cb8592a7f91342272e984cadf320a702bfeaa4a889af1f5e349f694f7e4273
+    home: https://github.com/prometheus/snmp_exporter
+    keywords:
+    - prometheus
+    - snmp
+    - monitoring
+    maintainers:
+    - email: maxime@root314.com
+      name: miouge1
+    name: prometheus-snmp-exporter
+    sources:
+    - https://github.com/prometheus/snmp_exporter
+    urls:
+    - https://github.com/fidelity/prometheus-helm-charts/releases/download/prometheus-snmp-exporter-1.2.0/prometheus-snmp-exporter-1.2.0.tgz
+    version: 1.2.0
+  - apiVersion: v1
+    appVersion: 0.19.0
     created: "2022-04-22T08:47:00.607784592Z"
     description: Prometheus SNMP Exporter
     digest: 63ead4d0f6cb55aca20794c5914015f65f8d7a081bbada8337cbd93ec0a88321
@@ -49086,4 +49170,4 @@ entries:
     urls:
     - https://prometheus-community.github.io/helm-charts/prometheus-to-sd-0.1.0.tgz
     version: 0.1.0
-generated: "2022-08-22T14:29:22.842864045Z"
+generated: "2022-08-24T16:23:13.371777226Z"
